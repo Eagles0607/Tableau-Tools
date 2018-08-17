@@ -6,22 +6,27 @@ A collection of tools for working with Tableau.
 The foundation of the Ruby Tableau Tools, the twb gem provides access to a Tableau workbook's internals. It works with normal *twb* and packaged *twbx* workbooks.
 
 In order to use the the twb gem is must be installed, most commonly at the command line via:
+
     > gem install 'twb'
 
 Once installed, access to the gem by Ruby code is enabled by this line:
+
     require 'twb'
 
 
 As provided, the tools are run as Ruby scripts from the command line like so:
+
     > ruby '{path}{scriptfile}'
 
 e.g.    
+
     > ruby 'c:\bin\analyzeCalculatedFields.rb'
     or
     > ruby 'c:\bin\analyzeSheetFields.rb'
 
 
 By design 
+
 - the tools operate upon all of the Workbooks in the current directory
 - documenation and data are prepared and placed in the subdirectory '.\ttdoc' immediately below the current directory
 

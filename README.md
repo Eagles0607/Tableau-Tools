@@ -28,7 +28,7 @@ e.g.
 By design 
 
 - the tools operate upon all of the Workbooks in the current directory
-- documenation and data are prepared and placed in the subdirectory '.\ttdoc' immediately below the current directory
+- documentation and data are prepared and placed in the subdirectory '.\ttdoc' immediately below the current directory
 
 Documentation is prepared in PDF, PNG, and Markdown files. These are normally specific to individual Workbooks, and named with the Workbook's name appended with content and file type suffixes.
 

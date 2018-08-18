@@ -1,31 +1,31 @@
-# analyzeCalculatedFields.rb &mdash; in use
+# analyzeCalculatedFields.rb &mdash; usage
 
-### Assume:
-
-- The directory contains the Tableau Sample Workbooks:
-    
-    
-    > dir *.t*
-     Volume in drive...
-     Volume Serial Number is...
-
-     Directory of {path}\Tableau Sample Workbooks
-
-    06/27/2018  10:32 PM           605,080 Regional.twbx
-    06/27/2018  10:32 PM         1,091,332 Superstore.twbx
-    06/27/2018  10:32 PM           533,181 World Indicators.twbx
-                   3 File(s)      2,229,593 bytes
+### Prerequisites:
 
 - Ruby is installed on your system
 - The twb gem is installed
-- analyzeCalculatedFields.rb is available at {path}
+- analyzeCalculatedFields.rb is available at **{path}**
+- The directory contains the Tableau Sample Workbooks
+---
+    > dir \*.t\*
+      Volume in drive...
+      Volume Serial Number is...
+      
+       Directory of {path}\Tableau Sample Workbooks
+      
+      06/27/2018  10:32 PM           605,080 Regional.twbx
+      06/27/2018  10:32 PM         1,091,332 Superstore.twbx
+      06/27/2018  10:32 PM           533,181 World Indicators.twbx
+                   3 File(s)      2,229,593 bytes
+---
 
 ### Execute analyzeCalculatedFields.rb
-
+---
     > ruby '{path}\analyzeCalculatedFields.rb'
- 
-### analyzeCalculatedFields.rb generates this as it executes:
+--- 
 
+### analyzeCalculatedFields.rb generates this as it executes:
+---
     Twb::Analysis::CalculatedFieldsAnalyzer
     Analyzing Calculated Fields from Tableau Workbooks.
 
@@ -52,6 +52,6 @@
 
 
     That's all, folks.
-
+---
 
 

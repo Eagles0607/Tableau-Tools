@@ -61,5 +61,5 @@ One sheet is shown here:
 ![Tableau Workbook - Calculated Fields - Base Data.twbx](https://github.com/ChrisGerrard/Tableau-Tools/blob/master/Ruby/analysis/ttdoc/Calculated%20Fields%20-%20Base%20Data%2C%20Calculated%20Field%20Formula%20Lines%20sheet.PNG)
 
 Workbook notes:
-- The Workbook is configured to pick up the CSV files from the current directory; this will be hard wired to whichever directory the Workbook is using when it's saved.
+- The Workbook is configured to pick up the CSV files from the current directory; this will be hard wired to whichever directory the Data Sources are using when the Workbook is saved.
 - The Workbook is packaged simply to avoid GitHub from presenting it as XML text by default &ndash; this can be confusing to people who aren't aware of or used to seeing Workbooks as XML.

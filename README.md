@@ -30,7 +30,10 @@ By design
 - the tools operate upon all of the Workbooks in the current directory
 - documentation and data are prepared and placed in the subdirectory '.\ttdoc' immediately below the current directory
 
-Documentation is prepared in PDF, PNG, and Markdown files. These are normally specific to individual Workbooks, and named with the Workbook's name appended with content and file type suffixes.
+Documentation is prepared in PDF, PNG, and Markdown files. These are normally specific to individual Workbooks, and named with the Workbook's name appended with content and file type suffixes. For example:
+
+- `Regional.twbx.CalculatedFieldsGraph.pdf` <br />is a PDF file with a map of the Calculated fields' in the Regional sample Workbook. It shows how the Calculated fields relate to one another and to the database fields.
+- `Regional.twbx.CalculatedFieldsGraph.md` <br />is a Markdown file documenting the Calculated fields in an organized format suitable for publication. Markdown files can be viewed directly in your browser or easily transformed into HTML or PDF.
 
 Data is prepared as CSV files, also placed in the ttdoc subdirectory. CSV files include the data from all of the Workbooks analyzed and are specific to the type of Workbook elements being analyzed, e.g.
 

@@ -1,0 +1,833 @@
+Rec #,Workbook,Workbook Dir,Data Source,Field - Calculated,Data Source - Formula (tech),Data Source - Formula,Field - Formula (tech),Field - Formula,Data Source + Field - Calculated,Table
+1,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Education,True Average, {SUM([Calculation_7540328115524419])/SUM(1)}   ,"{SUM([Total Score])/SUM(1)}
+//Because this is a table-scoped LOD, filters 
+//need to be context filters so that they are 
+//evaluated prior to the calculation",Calculation_7540328115524419,Total Score,Education::Total Score,
+2,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Education,Total Score, [Math]+[Verbal]+[Writing],[Math]+[Verbal]+[Writing],Math,Math,Education::Math,
+3,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Education,Total Score, [Math]+[Verbal]+[Writing],[Math]+[Verbal]+[Writing],Verbal,Verbal,Education::Verbal,
+4,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Education,Total Score, [Math]+[Verbal]+[Writing],[Math]+[Verbal]+[Writing],Writing,Writing,Education::Writing,
+1,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Education,True Average, {SUM([Calculation_7540328115524419])/SUM(1)}   ,"{SUM([Total Score])/SUM(1)}
+//Because this is a table-scoped LOD, filters 
+//need to be context filters so that they are 
+//evaluated prior to the calculation",Calculation_7540328115524419,Total Score,Education::Total Score,
+2,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Education,Total Score, [Math]+[Verbal]+[Writing],[Math]+[Verbal]+[Writing],Math,Math,Education::Math,
+3,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Education,Total Score, [Math]+[Verbal]+[Writing],[Math]+[Verbal]+[Writing],Verbal,Verbal,Education::Verbal,
+4,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Education,Total Score, [Math]+[Verbal]+[Writing],[Math]+[Verbal]+[Writing],Writing,Writing,Education::Writing,
+5,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Flight,% of Delayed Flights," Sum(if contains([Ontime Category], ""Delayed"") then [Number of Flights] else 0 end)/sum([Number of Flights])","Sum(if contains([Ontime Category], ""Delayed"") then [Number of Flights] else 0 end)/sum([Number of Flights])",Ontime Category,Ontime Category,Flight::Ontime Category,
+6,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Flight,% of Delayed Flights," Sum(if contains([Ontime Category], ""Delayed"") then [Number of Flights] else 0 end)/sum([Number of Flights])","Sum(if contains([Ontime Category], ""Delayed"") then [Number of Flights] else 0 end)/sum([Number of Flights])",Number of Flights,Number of Flights,Flight::Number of Flights,
+7,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Flight,% of Delayed Flights," Sum(if contains([Ontime Category], ""Delayed"") then [Number of Flights] else 0 end)/sum([Number of Flights])","Sum(if contains([Ontime Category], ""Delayed"") then [Number of Flights] else 0 end)/sum([Number of Flights])",Number of Flights,Number of Flights,Flight::Number of Flights,
+8,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Flight,Minutes of Delay per Flight, [Minutes of Delay]/[Number of Flights],[Minutes of Delay]/[Number of Flights],Minutes of Delay,Minutes of Delay,Flight::Minutes of Delay,
+9,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Flight,Minutes of Delay per Flight, [Minutes of Delay]/[Number of Flights],[Minutes of Delay]/[Number of Flights],Number of Flights,Number of Flights,Flight::Number of Flights,
+1,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Education,True Average, {SUM([Calculation_7540328115524419])/SUM(1)}   ,"{SUM([Total Score])/SUM(1)}
+//Because this is a table-scoped LOD, filters 
+//need to be context filters so that they are 
+//evaluated prior to the calculation",Calculation_7540328115524419,Total Score,Education::Total Score,
+2,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Education,Total Score, [Math]+[Verbal]+[Writing],[Math]+[Verbal]+[Writing],Math,Math,Education::Math,
+3,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Education,Total Score, [Math]+[Verbal]+[Writing],[Math]+[Verbal]+[Writing],Verbal,Verbal,Education::Verbal,
+4,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Education,Total Score, [Math]+[Verbal]+[Writing],[Math]+[Verbal]+[Writing],Writing,Writing,Education::Writing,
+5,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Flight,% of Delayed Flights," Sum(if contains([Ontime Category], ""Delayed"") then [Number of Flights] else 0 end)/sum([Number of Flights])","Sum(if contains([Ontime Category], ""Delayed"") then [Number of Flights] else 0 end)/sum([Number of Flights])",Ontime Category,Ontime Category,Flight::Ontime Category,
+6,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Flight,% of Delayed Flights," Sum(if contains([Ontime Category], ""Delayed"") then [Number of Flights] else 0 end)/sum([Number of Flights])","Sum(if contains([Ontime Category], ""Delayed"") then [Number of Flights] else 0 end)/sum([Number of Flights])",Number of Flights,Number of Flights,Flight::Number of Flights,
+7,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Flight,% of Delayed Flights," Sum(if contains([Ontime Category], ""Delayed"") then [Number of Flights] else 0 end)/sum([Number of Flights])","Sum(if contains([Ontime Category], ""Delayed"") then [Number of Flights] else 0 end)/sum([Number of Flights])",Number of Flights,Number of Flights,Flight::Number of Flights,
+8,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Flight,Minutes of Delay per Flight, [Minutes of Delay]/[Number of Flights],[Minutes of Delay]/[Number of Flights],Minutes of Delay,Minutes of Delay,Flight::Minutes of Delay,
+9,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Flight,Minutes of Delay per Flight, [Minutes of Delay]/[Number of Flights],[Minutes of Delay]/[Number of Flights],Number of Flights,Number of Flights,Flight::Number of Flights,
+1,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Education,True Average, {SUM([Calculation_7540328115524419])/SUM(1)}   ,"{SUM([Total Score])/SUM(1)}
+//Because this is a table-scoped LOD, filters 
+//need to be context filters so that they are 
+//evaluated prior to the calculation",Calculation_7540328115524419,Total Score,Education::Total Score,
+2,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Education,Total Score, [Math]+[Verbal]+[Writing],[Math]+[Verbal]+[Writing],Math,Math,Education::Math,
+3,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Education,Total Score, [Math]+[Verbal]+[Writing],[Math]+[Verbal]+[Writing],Verbal,Verbal,Education::Verbal,
+4,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Education,Total Score, [Math]+[Verbal]+[Writing],[Math]+[Verbal]+[Writing],Writing,Writing,Education::Writing,
+5,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Flight,% of Delayed Flights," Sum(if contains([Ontime Category], ""Delayed"") then [Number of Flights] else 0 end)/sum([Number of Flights])","Sum(if contains([Ontime Category], ""Delayed"") then [Number of Flights] else 0 end)/sum([Number of Flights])",Ontime Category,Ontime Category,Flight::Ontime Category,
+6,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Flight,% of Delayed Flights," Sum(if contains([Ontime Category], ""Delayed"") then [Number of Flights] else 0 end)/sum([Number of Flights])","Sum(if contains([Ontime Category], ""Delayed"") then [Number of Flights] else 0 end)/sum([Number of Flights])",Number of Flights,Number of Flights,Flight::Number of Flights,
+7,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Flight,% of Delayed Flights," Sum(if contains([Ontime Category], ""Delayed"") then [Number of Flights] else 0 end)/sum([Number of Flights])","Sum(if contains([Ontime Category], ""Delayed"") then [Number of Flights] else 0 end)/sum([Number of Flights])",Number of Flights,Number of Flights,Flight::Number of Flights,
+8,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Flight,Minutes of Delay per Flight, [Minutes of Delay]/[Number of Flights],[Minutes of Delay]/[Number of Flights],Minutes of Delay,Minutes of Delay,Flight::Minutes of Delay,
+9,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Flight,Minutes of Delay per Flight, [Minutes of Delay]/[Number of Flights],[Minutes of Delay]/[Number of Flights],Number of Flights,Number of Flights,Flight::Number of Flights,
+10,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Regional Obesity Rate, {FIXED [Region]: AVG([Adult Obesity (% of pop)])},{FIXED [Region]: AVG([Adult Obesity (% of pop)])},Region,Region,Obesity::Region,
+11,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Regional Obesity Rate, {FIXED [Region]: AVG([Adult Obesity (% of pop)])},{FIXED [Region]: AVG([Adult Obesity (% of pop)])},Adult Obesity (% of pop),Adult Obesity (% of pop),Obesity::Adult Obesity (% of pop),
+12,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",Calculation_547187368111550464,Regional Obesity Rate,Obesity::Regional Obesity Rate,
+13,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",State,State,Obesity::State,
+14,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",County,County,Obesity::County,
+15,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",Adult Obesity (% of pop),Adult Obesity (% of pop),Obesity::Adult Obesity (% of pop),
+16,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",Calculation_547187368111550464,Regional Obesity Rate,Obesity::Regional Obesity Rate,
+17,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",State,State,Obesity::State,
+18,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",County,County,Obesity::County,
+19,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",Adult Obesity (% of pop),Adult Obesity (% of pop),Obesity::Adult Obesity (% of pop),
+20,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",Calculation_655836709784489985,Difference from Region,Obesity::Difference from Region,
+21,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",Calculation_655836709784489985,Difference from Region,Obesity::Difference from Region,
+22,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Difference from Region," ABS(ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)- ROUND([Calculation_547187368111550464],2))","ABS(ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)- ROUND([Regional Obesity Rate],2))",State,State,Obesity::State,
+23,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Difference from Region," ABS(ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)- ROUND([Calculation_547187368111550464],2))","ABS(ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)- ROUND([Regional Obesity Rate],2))",County,County,Obesity::County,
+24,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Difference from Region," ABS(ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)- ROUND([Calculation_547187368111550464],2))","ABS(ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)- ROUND([Regional Obesity Rate],2))",Adult Obesity (% of pop),Adult Obesity (% of pop),Obesity::Adult Obesity (% of pop),
+25,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Difference from Region," ABS(ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)- ROUND([Calculation_547187368111550464],2))","ABS(ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)- ROUND([Regional Obesity Rate],2))",Calculation_547187368111550464,Regional Obesity Rate,Obesity::Regional Obesity Rate,
+1,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Education,True Average, {SUM([Calculation_7540328115524419])/SUM(1)}   ,"{SUM([Total Score])/SUM(1)}
+//Because this is a table-scoped LOD, filters 
+//need to be context filters so that they are 
+//evaluated prior to the calculation",Calculation_7540328115524419,Total Score,Education::Total Score,
+2,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Education,Total Score, [Math]+[Verbal]+[Writing],[Math]+[Verbal]+[Writing],Math,Math,Education::Math,
+3,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Education,Total Score, [Math]+[Verbal]+[Writing],[Math]+[Verbal]+[Writing],Verbal,Verbal,Education::Verbal,
+4,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Education,Total Score, [Math]+[Verbal]+[Writing],[Math]+[Verbal]+[Writing],Writing,Writing,Education::Writing,
+5,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Flight,% of Delayed Flights," Sum(if contains([Ontime Category], ""Delayed"") then [Number of Flights] else 0 end)/sum([Number of Flights])","Sum(if contains([Ontime Category], ""Delayed"") then [Number of Flights] else 0 end)/sum([Number of Flights])",Ontime Category,Ontime Category,Flight::Ontime Category,
+6,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Flight,% of Delayed Flights," Sum(if contains([Ontime Category], ""Delayed"") then [Number of Flights] else 0 end)/sum([Number of Flights])","Sum(if contains([Ontime Category], ""Delayed"") then [Number of Flights] else 0 end)/sum([Number of Flights])",Number of Flights,Number of Flights,Flight::Number of Flights,
+7,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Flight,% of Delayed Flights," Sum(if contains([Ontime Category], ""Delayed"") then [Number of Flights] else 0 end)/sum([Number of Flights])","Sum(if contains([Ontime Category], ""Delayed"") then [Number of Flights] else 0 end)/sum([Number of Flights])",Number of Flights,Number of Flights,Flight::Number of Flights,
+8,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Flight,Minutes of Delay per Flight, [Minutes of Delay]/[Number of Flights],[Minutes of Delay]/[Number of Flights],Minutes of Delay,Minutes of Delay,Flight::Minutes of Delay,
+9,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Flight,Minutes of Delay per Flight, [Minutes of Delay]/[Number of Flights],[Minutes of Delay]/[Number of Flights],Number of Flights,Number of Flights,Flight::Number of Flights,
+10,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Regional Obesity Rate, {FIXED [Region]: AVG([Adult Obesity (% of pop)])},{FIXED [Region]: AVG([Adult Obesity (% of pop)])},Region,Region,Obesity::Region,
+11,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Regional Obesity Rate, {FIXED [Region]: AVG([Adult Obesity (% of pop)])},{FIXED [Region]: AVG([Adult Obesity (% of pop)])},Adult Obesity (% of pop),Adult Obesity (% of pop),Obesity::Adult Obesity (% of pop),
+12,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",Calculation_547187368111550464,Regional Obesity Rate,Obesity::Regional Obesity Rate,
+13,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",State,State,Obesity::State,
+14,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",County,County,Obesity::County,
+15,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",Adult Obesity (% of pop),Adult Obesity (% of pop),Obesity::Adult Obesity (% of pop),
+16,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",Calculation_547187368111550464,Regional Obesity Rate,Obesity::Regional Obesity Rate,
+17,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",State,State,Obesity::State,
+18,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",County,County,Obesity::County,
+19,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",Adult Obesity (% of pop),Adult Obesity (% of pop),Obesity::Adult Obesity (% of pop),
+20,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",Calculation_655836709784489985,Difference from Region,Obesity::Difference from Region,
+21,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",Calculation_655836709784489985,Difference from Region,Obesity::Difference from Region,
+22,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Difference from Region," ABS(ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)- ROUND([Calculation_547187368111550464],2))","ABS(ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)- ROUND([Regional Obesity Rate],2))",State,State,Obesity::State,
+23,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Difference from Region," ABS(ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)- ROUND([Calculation_547187368111550464],2))","ABS(ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)- ROUND([Regional Obesity Rate],2))",County,County,Obesity::County,
+24,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Difference from Region," ABS(ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)- ROUND([Calculation_547187368111550464],2))","ABS(ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)- ROUND([Regional Obesity Rate],2))",Adult Obesity (% of pop),Adult Obesity (% of pop),Obesity::Adult Obesity (% of pop),
+25,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Difference from Region," ABS(ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)- ROUND([Calculation_547187368111550464],2))","ABS(ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)- ROUND([Regional Obesity Rate],2))",Calculation_547187368111550464,Regional Obesity Rate,Obesity::Regional Obesity Rate,
+26,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Global Temperatures,Above Median?," IF AVG([Median]) > 0 THEN ""above median"" ELSEIF AVG([Median]) < 0  THEN ""below median"" ELSE ""(at median)"" END","IF AVG([Median]) > 0
+THEN ""above median""
+ELSEIF AVG([Median]) < 0 
+THEN ""below median""
+ELSE ""(at median)""
+END",Median,Median,Global Temperatures::Median,
+27,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Global Temperatures,Above Median?," IF AVG([Median]) > 0 THEN ""above median"" ELSEIF AVG([Median]) < 0  THEN ""below median"" ELSE ""(at median)"" END","IF AVG([Median]) > 0
+THEN ""above median""
+ELSEIF AVG([Median]) < 0 
+THEN ""below median""
+ELSE ""(at median)""
+END",Median,Median,Global Temperatures::Median,
+28,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Global Temperatures,Date," DATE(DATEPARSE(""yyyy/MM"",[Year]))","DATE(DATEPARSE(""yyyy/MM"",[Year]))",Year,Year,Global Temperatures::Year,
+1,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Education,True Average, {SUM([Calculation_7540328115524419])/SUM(1)}   ,"{SUM([Total Score])/SUM(1)}
+//Because this is a table-scoped LOD, filters 
+//need to be context filters so that they are 
+//evaluated prior to the calculation",Calculation_7540328115524419,Total Score,Education::Total Score,
+2,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Education,Total Score, [Math]+[Verbal]+[Writing],[Math]+[Verbal]+[Writing],Math,Math,Education::Math,
+3,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Education,Total Score, [Math]+[Verbal]+[Writing],[Math]+[Verbal]+[Writing],Verbal,Verbal,Education::Verbal,
+4,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Education,Total Score, [Math]+[Verbal]+[Writing],[Math]+[Verbal]+[Writing],Writing,Writing,Education::Writing,
+5,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Flight,% of Delayed Flights," Sum(if contains([Ontime Category], ""Delayed"") then [Number of Flights] else 0 end)/sum([Number of Flights])","Sum(if contains([Ontime Category], ""Delayed"") then [Number of Flights] else 0 end)/sum([Number of Flights])",Ontime Category,Ontime Category,Flight::Ontime Category,
+6,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Flight,% of Delayed Flights," Sum(if contains([Ontime Category], ""Delayed"") then [Number of Flights] else 0 end)/sum([Number of Flights])","Sum(if contains([Ontime Category], ""Delayed"") then [Number of Flights] else 0 end)/sum([Number of Flights])",Number of Flights,Number of Flights,Flight::Number of Flights,
+7,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Flight,% of Delayed Flights," Sum(if contains([Ontime Category], ""Delayed"") then [Number of Flights] else 0 end)/sum([Number of Flights])","Sum(if contains([Ontime Category], ""Delayed"") then [Number of Flights] else 0 end)/sum([Number of Flights])",Number of Flights,Number of Flights,Flight::Number of Flights,
+8,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Flight,Minutes of Delay per Flight, [Minutes of Delay]/[Number of Flights],[Minutes of Delay]/[Number of Flights],Minutes of Delay,Minutes of Delay,Flight::Minutes of Delay,
+9,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Flight,Minutes of Delay per Flight, [Minutes of Delay]/[Number of Flights],[Minutes of Delay]/[Number of Flights],Number of Flights,Number of Flights,Flight::Number of Flights,
+10,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Regional Obesity Rate, {FIXED [Region]: AVG([Adult Obesity (% of pop)])},{FIXED [Region]: AVG([Adult Obesity (% of pop)])},Region,Region,Obesity::Region,
+11,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Regional Obesity Rate, {FIXED [Region]: AVG([Adult Obesity (% of pop)])},{FIXED [Region]: AVG([Adult Obesity (% of pop)])},Adult Obesity (% of pop),Adult Obesity (% of pop),Obesity::Adult Obesity (% of pop),
+12,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",Calculation_547187368111550464,Regional Obesity Rate,Obesity::Regional Obesity Rate,
+13,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",State,State,Obesity::State,
+14,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",County,County,Obesity::County,
+15,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",Adult Obesity (% of pop),Adult Obesity (% of pop),Obesity::Adult Obesity (% of pop),
+16,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",Calculation_547187368111550464,Regional Obesity Rate,Obesity::Regional Obesity Rate,
+17,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",State,State,Obesity::State,
+18,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",County,County,Obesity::County,
+19,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",Adult Obesity (% of pop),Adult Obesity (% of pop),Obesity::Adult Obesity (% of pop),
+20,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",Calculation_655836709784489985,Difference from Region,Obesity::Difference from Region,
+21,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",Calculation_655836709784489985,Difference from Region,Obesity::Difference from Region,
+22,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Difference from Region," ABS(ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)- ROUND([Calculation_547187368111550464],2))","ABS(ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)- ROUND([Regional Obesity Rate],2))",State,State,Obesity::State,
+23,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Difference from Region," ABS(ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)- ROUND([Calculation_547187368111550464],2))","ABS(ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)- ROUND([Regional Obesity Rate],2))",County,County,Obesity::County,
+24,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Difference from Region," ABS(ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)- ROUND([Calculation_547187368111550464],2))","ABS(ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)- ROUND([Regional Obesity Rate],2))",Adult Obesity (% of pop),Adult Obesity (% of pop),Obesity::Adult Obesity (% of pop),
+25,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Difference from Region," ABS(ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)- ROUND([Calculation_547187368111550464],2))","ABS(ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)- ROUND([Regional Obesity Rate],2))",Calculation_547187368111550464,Regional Obesity Rate,Obesity::Regional Obesity Rate,
+26,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Global Temperatures,Above Median?," IF AVG([Median]) > 0 THEN ""above median"" ELSEIF AVG([Median]) < 0  THEN ""below median"" ELSE ""(at median)"" END","IF AVG([Median]) > 0
+THEN ""above median""
+ELSEIF AVG([Median]) < 0 
+THEN ""below median""
+ELSE ""(at median)""
+END",Median,Median,Global Temperatures::Median,
+27,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Global Temperatures,Above Median?," IF AVG([Median]) > 0 THEN ""above median"" ELSEIF AVG([Median]) < 0  THEN ""below median"" ELSE ""(at median)"" END","IF AVG([Median]) > 0
+THEN ""above median""
+ELSEIF AVG([Median]) < 0 
+THEN ""below median""
+ELSE ""(at median)""
+END",Median,Median,Global Temperatures::Median,
+28,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Global Temperatures,Date," DATE(DATEPARSE(""yyyy/MM"",[Year]))","DATE(DATEPARSE(""yyyy/MM"",[Year]))",Year,Year,Global Temperatures::Year,
+29,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Days to Ship Actual," DATEDIFF('day',[Order Date],[Ship Date])","DATEDIFF('day',[Order Date],[Ship Date])",Order Date,Order Date,Sample - Superstore::Order Date,
+30,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Days to Ship Actual," DATEDIFF('day',[Order Date],[Ship Date])","DATEDIFF('day',[Order Date],[Ship Date])",Ship Date,Ship Date,Sample - Superstore::Ship Date,
+31,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Sales Forecast, [Sales]*(1-[Parameters].[Parameter 2])*(1+[Parameters].[Parameter 1]),[Sales]*(1-[Parameters].[Churn Rate])*(1+[Parameters].[New Business Growth]),Sales,Sales,Sample - Superstore::Sales,
+32,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Sales Forecast, [Sales]*(1-[Parameters].[Parameter 2])*(1+[Parameters].[Parameter 1]),[Sales]*(1-[Parameters].[Churn Rate])*(1+[Parameters].[New Business Growth]),,Churn Rate,Parameters::Churn Rate,
+33,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Sales Forecast, [Sales]*(1-[Parameters].[Parameter 2])*(1+[Parameters].[Parameter 1]),[Sales]*(1-[Parameters].[Churn Rate])*(1+[Parameters].[New Business Growth]),,New Business Growth,Parameters::New Business Growth,
+34,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Ship Status," if [Calculation_0831103151444568]> [Calculation_6861103170623145] then ""Shipped Late""  elseIF [Calculation_0831103151444568]= [Calculation_6861103170623145] then ""Shipped On Time"" Else ""Shipped Early"" end","if [Days to Ship Actual]> [Days to Ship Scheduled] then ""Shipped Late"" 
+elseIF [Days to Ship Actual]= [Days to Ship Scheduled] then ""Shipped On Time""
+Else ""Shipped Early"" end",Calculation_0831103151444568,Days to Ship Actual,Sample - Superstore::Days to Ship Actual,
+35,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Ship Status," if [Calculation_0831103151444568]> [Calculation_6861103170623145] then ""Shipped Late""  elseIF [Calculation_0831103151444568]= [Calculation_6861103170623145] then ""Shipped On Time"" Else ""Shipped Early"" end","if [Days to Ship Actual]> [Days to Ship Scheduled] then ""Shipped Late"" 
+elseIF [Days to Ship Actual]= [Days to Ship Scheduled] then ""Shipped On Time""
+Else ""Shipped Early"" end",Calculation_6861103170623145,Days to Ship Scheduled,Sample - Superstore::Days to Ship Scheduled,
+36,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Ship Status," if [Calculation_0831103151444568]> [Calculation_6861103170623145] then ""Shipped Late""  elseIF [Calculation_0831103151444568]= [Calculation_6861103170623145] then ""Shipped On Time"" Else ""Shipped Early"" end","if [Days to Ship Actual]> [Days to Ship Scheduled] then ""Shipped Late"" 
+elseIF [Days to Ship Actual]= [Days to Ship Scheduled] then ""Shipped On Time""
+Else ""Shipped Early"" end",Calculation_0831103151444568,Days to Ship Actual,Sample - Superstore::Days to Ship Actual,
+37,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Ship Status," if [Calculation_0831103151444568]> [Calculation_6861103170623145] then ""Shipped Late""  elseIF [Calculation_0831103151444568]= [Calculation_6861103170623145] then ""Shipped On Time"" Else ""Shipped Early"" end","if [Days to Ship Actual]> [Days to Ship Scheduled] then ""Shipped Late"" 
+elseIF [Days to Ship Actual]= [Days to Ship Scheduled] then ""Shipped On Time""
+Else ""Shipped Early"" end",Calculation_6861103170623145,Days to Ship Scheduled,Sample - Superstore::Days to Ship Scheduled,
+38,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Days to Ship Scheduled," CASE  [Ship Mode] WHEN ""Same Day"" THEN 0 WHEN ""First Class"" THEN 1 WHEN ""Second Class"" THEN 3 WHEN ""Standard Class"" THEN 6 END","CASE  [Ship Mode]
+WHEN ""Same Day"" THEN 0
+WHEN ""First Class"" THEN 1
+WHEN ""Second Class"" THEN 3
+WHEN ""Standard Class"" THEN 6
+END",Ship Mode,Ship Mode,Sample - Superstore::Ship Mode,
+39,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Order Profitable?, {fixed [Order ID]:sum([Profit])}>0 ,"{fixed [Order ID]:sum([Profit])}>0
+// calculates the profit at the order level",Order ID,Order ID,Sample - Superstore::Order ID,
+40,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Order Profitable?, {fixed [Order ID]:sum([Profit])}>0 ,"{fixed [Order ID]:sum([Profit])}>0
+// calculates the profit at the order level",Profit,Profit,Sample - Superstore::Profit,
+41,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Profit per Customer, sum([Profit])/countD([Customer Name]),sum([Profit])/countD([Customer Name]),Profit,Profit,Sample - Superstore::Profit,
+42,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Profit per Customer, sum([Profit])/countD([Customer Name]),sum([Profit])/countD([Customer Name]),Customer Name,Customer Name,Sample - Superstore::Customer Name,
+43,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Sales per Customer, Sum([Sales])/countD([Customer Name]),Sum([Sales])/countD([Customer Name]),Sales,Sales,Sample - Superstore::Sales,
+44,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Sales per Customer, Sum([Sales])/countD([Customer Name]),Sum([Sales])/countD([Customer Name]),Customer Name,Customer Name,Sample - Superstore::Customer Name,
+45,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Profit Ratio, sum([Profit])/sum([Sales]),sum([Profit])/sum([Sales]),Profit,Profit,Sample - Superstore::Profit,
+46,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Profit Ratio, sum([Profit])/sum([Sales]),sum([Profit])/sum([Sales]),Sales,Sales,Sample - Superstore::Sales,
+47,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Sales above Target?," If Sum([Sales])>SUM([federated.0z0pi331stuxay1ce6y5f1yxvsw9].[Sales Target]) then ""Above Target"" else ""Below Target"" end","If Sum([Sales])>SUM([Sales Target Extract].[Sales Target]) then ""Above Target"" else ""Below Target"" end",Sales,Sales,Sample - Superstore::Sales,
+48,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Sales above Target?," If Sum([Sales])>SUM([federated.0z0pi331stuxay1ce6y5f1yxvsw9].[Sales Target]) then ""Above Target"" else ""Below Target"" end","If Sum([Sales])>SUM([Sales Target Extract].[Sales Target]) then ""Above Target"" else ""Below Target"" end",,Sales Target,Sales Target Extract::Sales Target,
+49,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Units estimate," ROUND([Quantity]*(1-[Parameters].[Parameter 2])*(1+[Parameters].[Parameter 1]),0)","ROUND([Quantity]*(1-[Parameters].[Churn Rate])*(1+[Parameters].[New Business Growth]),0)",Quantity,Quantity,Sample - Superstore::Quantity,
+50,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Units estimate," ROUND([Quantity]*(1-[Parameters].[Parameter 2])*(1+[Parameters].[Parameter 1]),0)","ROUND([Quantity]*(1-[Parameters].[Churn Rate])*(1+[Parameters].[New Business Growth]),0)",,Churn Rate,Parameters::Churn Rate,
+51,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Units estimate," ROUND([Quantity]*(1-[Parameters].[Parameter 2])*(1+[Parameters].[Parameter 1]),0)","ROUND([Quantity]*(1-[Parameters].[Churn Rate])*(1+[Parameters].[New Business Growth]),0)",,New Business Growth,Parameters::New Business Growth,
+52,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Profit per Order, Sum([Profit])/countD([Order ID]),Sum([Profit])/countD([Order ID]),Profit,Profit,Sample - Superstore::Profit,
+53,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Profit per Order, Sum([Profit])/countD([Order ID]),Sum([Profit])/countD([Order ID]),Order ID,Order ID,Sample - Superstore::Order ID,
+1,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Education,True Average, {SUM([Calculation_7540328115524419])/SUM(1)}   ,"{SUM([Total Score])/SUM(1)}
+//Because this is a table-scoped LOD, filters 
+//need to be context filters so that they are 
+//evaluated prior to the calculation",Calculation_7540328115524419,Total Score,Education::Total Score,
+2,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Education,Total Score, [Math]+[Verbal]+[Writing],[Math]+[Verbal]+[Writing],Math,Math,Education::Math,
+3,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Education,Total Score, [Math]+[Verbal]+[Writing],[Math]+[Verbal]+[Writing],Verbal,Verbal,Education::Verbal,
+4,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Education,Total Score, [Math]+[Verbal]+[Writing],[Math]+[Verbal]+[Writing],Writing,Writing,Education::Writing,
+5,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Flight,% of Delayed Flights," Sum(if contains([Ontime Category], ""Delayed"") then [Number of Flights] else 0 end)/sum([Number of Flights])","Sum(if contains([Ontime Category], ""Delayed"") then [Number of Flights] else 0 end)/sum([Number of Flights])",Ontime Category,Ontime Category,Flight::Ontime Category,
+6,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Flight,% of Delayed Flights," Sum(if contains([Ontime Category], ""Delayed"") then [Number of Flights] else 0 end)/sum([Number of Flights])","Sum(if contains([Ontime Category], ""Delayed"") then [Number of Flights] else 0 end)/sum([Number of Flights])",Number of Flights,Number of Flights,Flight::Number of Flights,
+7,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Flight,% of Delayed Flights," Sum(if contains([Ontime Category], ""Delayed"") then [Number of Flights] else 0 end)/sum([Number of Flights])","Sum(if contains([Ontime Category], ""Delayed"") then [Number of Flights] else 0 end)/sum([Number of Flights])",Number of Flights,Number of Flights,Flight::Number of Flights,
+8,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Flight,Minutes of Delay per Flight, [Minutes of Delay]/[Number of Flights],[Minutes of Delay]/[Number of Flights],Minutes of Delay,Minutes of Delay,Flight::Minutes of Delay,
+9,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Flight,Minutes of Delay per Flight, [Minutes of Delay]/[Number of Flights],[Minutes of Delay]/[Number of Flights],Number of Flights,Number of Flights,Flight::Number of Flights,
+10,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Regional Obesity Rate, {FIXED [Region]: AVG([Adult Obesity (% of pop)])},{FIXED [Region]: AVG([Adult Obesity (% of pop)])},Region,Region,Obesity::Region,
+11,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Regional Obesity Rate, {FIXED [Region]: AVG([Adult Obesity (% of pop)])},{FIXED [Region]: AVG([Adult Obesity (% of pop)])},Adult Obesity (% of pop),Adult Obesity (% of pop),Obesity::Adult Obesity (% of pop),
+12,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",Calculation_547187368111550464,Regional Obesity Rate,Obesity::Regional Obesity Rate,
+13,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",State,State,Obesity::State,
+14,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",County,County,Obesity::County,
+15,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",Adult Obesity (% of pop),Adult Obesity (% of pop),Obesity::Adult Obesity (% of pop),
+16,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",Calculation_547187368111550464,Regional Obesity Rate,Obesity::Regional Obesity Rate,
+17,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",State,State,Obesity::State,
+18,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",County,County,Obesity::County,
+19,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",Adult Obesity (% of pop),Adult Obesity (% of pop),Obesity::Adult Obesity (% of pop),
+20,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",Calculation_655836709784489985,Difference from Region,Obesity::Difference from Region,
+21,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",Calculation_655836709784489985,Difference from Region,Obesity::Difference from Region,
+22,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Difference from Region," ABS(ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)- ROUND([Calculation_547187368111550464],2))","ABS(ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)- ROUND([Regional Obesity Rate],2))",State,State,Obesity::State,
+23,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Difference from Region," ABS(ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)- ROUND([Calculation_547187368111550464],2))","ABS(ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)- ROUND([Regional Obesity Rate],2))",County,County,Obesity::County,
+24,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Difference from Region," ABS(ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)- ROUND([Calculation_547187368111550464],2))","ABS(ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)- ROUND([Regional Obesity Rate],2))",Adult Obesity (% of pop),Adult Obesity (% of pop),Obesity::Adult Obesity (% of pop),
+25,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Difference from Region," ABS(ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)- ROUND([Calculation_547187368111550464],2))","ABS(ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)- ROUND([Regional Obesity Rate],2))",Calculation_547187368111550464,Regional Obesity Rate,Obesity::Regional Obesity Rate,
+26,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Global Temperatures,Above Median?," IF AVG([Median]) > 0 THEN ""above median"" ELSEIF AVG([Median]) < 0  THEN ""below median"" ELSE ""(at median)"" END","IF AVG([Median]) > 0
+THEN ""above median""
+ELSEIF AVG([Median]) < 0 
+THEN ""below median""
+ELSE ""(at median)""
+END",Median,Median,Global Temperatures::Median,
+27,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Global Temperatures,Above Median?," IF AVG([Median]) > 0 THEN ""above median"" ELSEIF AVG([Median]) < 0  THEN ""below median"" ELSE ""(at median)"" END","IF AVG([Median]) > 0
+THEN ""above median""
+ELSEIF AVG([Median]) < 0 
+THEN ""below median""
+ELSE ""(at median)""
+END",Median,Median,Global Temperatures::Median,
+28,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Global Temperatures,Date," DATE(DATEPARSE(""yyyy/MM"",[Year]))","DATE(DATEPARSE(""yyyy/MM"",[Year]))",Year,Year,Global Temperatures::Year,
+29,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Days to Ship Actual," DATEDIFF('day',[Order Date],[Ship Date])","DATEDIFF('day',[Order Date],[Ship Date])",Order Date,Order Date,Sample - Superstore::Order Date,
+30,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Days to Ship Actual," DATEDIFF('day',[Order Date],[Ship Date])","DATEDIFF('day',[Order Date],[Ship Date])",Ship Date,Ship Date,Sample - Superstore::Ship Date,
+31,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Sales Forecast, [Sales]*(1-[Parameters].[Parameter 2])*(1+[Parameters].[Parameter 1]),[Sales]*(1-[Parameters].[Churn Rate])*(1+[Parameters].[New Business Growth]),Sales,Sales,Sample - Superstore::Sales,
+32,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Sales Forecast, [Sales]*(1-[Parameters].[Parameter 2])*(1+[Parameters].[Parameter 1]),[Sales]*(1-[Parameters].[Churn Rate])*(1+[Parameters].[New Business Growth]),,Churn Rate,Parameters::Churn Rate,
+33,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Sales Forecast, [Sales]*(1-[Parameters].[Parameter 2])*(1+[Parameters].[Parameter 1]),[Sales]*(1-[Parameters].[Churn Rate])*(1+[Parameters].[New Business Growth]),,New Business Growth,Parameters::New Business Growth,
+34,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Ship Status," if [Calculation_0831103151444568]> [Calculation_6861103170623145] then ""Shipped Late""  elseIF [Calculation_0831103151444568]= [Calculation_6861103170623145] then ""Shipped On Time"" Else ""Shipped Early"" end","if [Days to Ship Actual]> [Days to Ship Scheduled] then ""Shipped Late"" 
+elseIF [Days to Ship Actual]= [Days to Ship Scheduled] then ""Shipped On Time""
+Else ""Shipped Early"" end",Calculation_0831103151444568,Days to Ship Actual,Sample - Superstore::Days to Ship Actual,
+35,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Ship Status," if [Calculation_0831103151444568]> [Calculation_6861103170623145] then ""Shipped Late""  elseIF [Calculation_0831103151444568]= [Calculation_6861103170623145] then ""Shipped On Time"" Else ""Shipped Early"" end","if [Days to Ship Actual]> [Days to Ship Scheduled] then ""Shipped Late"" 
+elseIF [Days to Ship Actual]= [Days to Ship Scheduled] then ""Shipped On Time""
+Else ""Shipped Early"" end",Calculation_6861103170623145,Days to Ship Scheduled,Sample - Superstore::Days to Ship Scheduled,
+36,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Ship Status," if [Calculation_0831103151444568]> [Calculation_6861103170623145] then ""Shipped Late""  elseIF [Calculation_0831103151444568]= [Calculation_6861103170623145] then ""Shipped On Time"" Else ""Shipped Early"" end","if [Days to Ship Actual]> [Days to Ship Scheduled] then ""Shipped Late"" 
+elseIF [Days to Ship Actual]= [Days to Ship Scheduled] then ""Shipped On Time""
+Else ""Shipped Early"" end",Calculation_0831103151444568,Days to Ship Actual,Sample - Superstore::Days to Ship Actual,
+37,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Ship Status," if [Calculation_0831103151444568]> [Calculation_6861103170623145] then ""Shipped Late""  elseIF [Calculation_0831103151444568]= [Calculation_6861103170623145] then ""Shipped On Time"" Else ""Shipped Early"" end","if [Days to Ship Actual]> [Days to Ship Scheduled] then ""Shipped Late"" 
+elseIF [Days to Ship Actual]= [Days to Ship Scheduled] then ""Shipped On Time""
+Else ""Shipped Early"" end",Calculation_6861103170623145,Days to Ship Scheduled,Sample - Superstore::Days to Ship Scheduled,
+38,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Days to Ship Scheduled," CASE  [Ship Mode] WHEN ""Same Day"" THEN 0 WHEN ""First Class"" THEN 1 WHEN ""Second Class"" THEN 3 WHEN ""Standard Class"" THEN 6 END","CASE  [Ship Mode]
+WHEN ""Same Day"" THEN 0
+WHEN ""First Class"" THEN 1
+WHEN ""Second Class"" THEN 3
+WHEN ""Standard Class"" THEN 6
+END",Ship Mode,Ship Mode,Sample - Superstore::Ship Mode,
+39,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Order Profitable?, {fixed [Order ID]:sum([Profit])}>0 ,"{fixed [Order ID]:sum([Profit])}>0
+// calculates the profit at the order level",Order ID,Order ID,Sample - Superstore::Order ID,
+40,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Order Profitable?, {fixed [Order ID]:sum([Profit])}>0 ,"{fixed [Order ID]:sum([Profit])}>0
+// calculates the profit at the order level",Profit,Profit,Sample - Superstore::Profit,
+41,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Profit per Customer, sum([Profit])/countD([Customer Name]),sum([Profit])/countD([Customer Name]),Profit,Profit,Sample - Superstore::Profit,
+42,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Profit per Customer, sum([Profit])/countD([Customer Name]),sum([Profit])/countD([Customer Name]),Customer Name,Customer Name,Sample - Superstore::Customer Name,
+43,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Sales per Customer, Sum([Sales])/countD([Customer Name]),Sum([Sales])/countD([Customer Name]),Sales,Sales,Sample - Superstore::Sales,
+44,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Sales per Customer, Sum([Sales])/countD([Customer Name]),Sum([Sales])/countD([Customer Name]),Customer Name,Customer Name,Sample - Superstore::Customer Name,
+45,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Profit Ratio, sum([Profit])/sum([Sales]),sum([Profit])/sum([Sales]),Profit,Profit,Sample - Superstore::Profit,
+46,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Profit Ratio, sum([Profit])/sum([Sales]),sum([Profit])/sum([Sales]),Sales,Sales,Sample - Superstore::Sales,
+47,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Sales above Target?," If Sum([Sales])>SUM([federated.0z0pi331stuxay1ce6y5f1yxvsw9].[Sales Target]) then ""Above Target"" else ""Below Target"" end","If Sum([Sales])>SUM([Sales Target Extract].[Sales Target]) then ""Above Target"" else ""Below Target"" end",Sales,Sales,Sample - Superstore::Sales,
+48,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Sales above Target?," If Sum([Sales])>SUM([federated.0z0pi331stuxay1ce6y5f1yxvsw9].[Sales Target]) then ""Above Target"" else ""Below Target"" end","If Sum([Sales])>SUM([Sales Target Extract].[Sales Target]) then ""Above Target"" else ""Below Target"" end",,Sales Target,Sales Target Extract::Sales Target,
+49,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Units estimate," ROUND([Quantity]*(1-[Parameters].[Parameter 2])*(1+[Parameters].[Parameter 1]),0)","ROUND([Quantity]*(1-[Parameters].[Churn Rate])*(1+[Parameters].[New Business Growth]),0)",Quantity,Quantity,Sample - Superstore::Quantity,
+50,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Units estimate," ROUND([Quantity]*(1-[Parameters].[Parameter 2])*(1+[Parameters].[Parameter 1]),0)","ROUND([Quantity]*(1-[Parameters].[Churn Rate])*(1+[Parameters].[New Business Growth]),0)",,Churn Rate,Parameters::Churn Rate,
+51,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Units estimate," ROUND([Quantity]*(1-[Parameters].[Parameter 2])*(1+[Parameters].[Parameter 1]),0)","ROUND([Quantity]*(1-[Parameters].[Churn Rate])*(1+[Parameters].[New Business Growth]),0)",,New Business Growth,Parameters::New Business Growth,
+52,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Profit per Order, Sum([Profit])/countD([Order ID]),Sum([Profit])/countD([Order ID]),Profit,Profit,Sample - Superstore::Profit,
+53,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Profit per Order, Sum([Profit])/countD([Order ID]),Sum([Profit])/countD([Order ID]),Order ID,Order ID,Sample - Superstore::Order ID,
+1,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Education,True Average, {SUM([Calculation_7540328115524419])/SUM(1)}   ,"{SUM([Total Score])/SUM(1)}
+//Because this is a table-scoped LOD, filters 
+//need to be context filters so that they are 
+//evaluated prior to the calculation",Calculation_7540328115524419,Total Score,Education::Total Score,
+2,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Education,Total Score, [Math]+[Verbal]+[Writing],[Math]+[Verbal]+[Writing],Math,Math,Education::Math,
+3,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Education,Total Score, [Math]+[Verbal]+[Writing],[Math]+[Verbal]+[Writing],Verbal,Verbal,Education::Verbal,
+4,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Education,Total Score, [Math]+[Verbal]+[Writing],[Math]+[Verbal]+[Writing],Writing,Writing,Education::Writing,
+5,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Flight,% of Delayed Flights," Sum(if contains([Ontime Category], ""Delayed"") then [Number of Flights] else 0 end)/sum([Number of Flights])","Sum(if contains([Ontime Category], ""Delayed"") then [Number of Flights] else 0 end)/sum([Number of Flights])",Ontime Category,Ontime Category,Flight::Ontime Category,
+6,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Flight,% of Delayed Flights," Sum(if contains([Ontime Category], ""Delayed"") then [Number of Flights] else 0 end)/sum([Number of Flights])","Sum(if contains([Ontime Category], ""Delayed"") then [Number of Flights] else 0 end)/sum([Number of Flights])",Number of Flights,Number of Flights,Flight::Number of Flights,
+7,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Flight,% of Delayed Flights," Sum(if contains([Ontime Category], ""Delayed"") then [Number of Flights] else 0 end)/sum([Number of Flights])","Sum(if contains([Ontime Category], ""Delayed"") then [Number of Flights] else 0 end)/sum([Number of Flights])",Number of Flights,Number of Flights,Flight::Number of Flights,
+8,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Flight,Minutes of Delay per Flight, [Minutes of Delay]/[Number of Flights],[Minutes of Delay]/[Number of Flights],Minutes of Delay,Minutes of Delay,Flight::Minutes of Delay,
+9,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Flight,Minutes of Delay per Flight, [Minutes of Delay]/[Number of Flights],[Minutes of Delay]/[Number of Flights],Number of Flights,Number of Flights,Flight::Number of Flights,
+10,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Regional Obesity Rate, {FIXED [Region]: AVG([Adult Obesity (% of pop)])},{FIXED [Region]: AVG([Adult Obesity (% of pop)])},Region,Region,Obesity::Region,
+11,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Regional Obesity Rate, {FIXED [Region]: AVG([Adult Obesity (% of pop)])},{FIXED [Region]: AVG([Adult Obesity (% of pop)])},Adult Obesity (% of pop),Adult Obesity (% of pop),Obesity::Adult Obesity (% of pop),
+12,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",Calculation_547187368111550464,Regional Obesity Rate,Obesity::Regional Obesity Rate,
+13,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",State,State,Obesity::State,
+14,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",County,County,Obesity::County,
+15,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",Adult Obesity (% of pop),Adult Obesity (% of pop),Obesity::Adult Obesity (% of pop),
+16,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",Calculation_547187368111550464,Regional Obesity Rate,Obesity::Regional Obesity Rate,
+17,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",State,State,Obesity::State,
+18,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",County,County,Obesity::County,
+19,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",Adult Obesity (% of pop),Adult Obesity (% of pop),Obesity::Adult Obesity (% of pop),
+20,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",Calculation_655836709784489985,Difference from Region,Obesity::Difference from Region,
+21,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",Calculation_655836709784489985,Difference from Region,Obesity::Difference from Region,
+22,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Difference from Region," ABS(ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)- ROUND([Calculation_547187368111550464],2))","ABS(ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)- ROUND([Regional Obesity Rate],2))",State,State,Obesity::State,
+23,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Difference from Region," ABS(ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)- ROUND([Calculation_547187368111550464],2))","ABS(ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)- ROUND([Regional Obesity Rate],2))",County,County,Obesity::County,
+24,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Difference from Region," ABS(ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)- ROUND([Calculation_547187368111550464],2))","ABS(ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)- ROUND([Regional Obesity Rate],2))",Adult Obesity (% of pop),Adult Obesity (% of pop),Obesity::Adult Obesity (% of pop),
+25,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Difference from Region," ABS(ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)- ROUND([Calculation_547187368111550464],2))","ABS(ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)- ROUND([Regional Obesity Rate],2))",Calculation_547187368111550464,Regional Obesity Rate,Obesity::Regional Obesity Rate,
+26,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Global Temperatures,Above Median?," IF AVG([Median]) > 0 THEN ""above median"" ELSEIF AVG([Median]) < 0  THEN ""below median"" ELSE ""(at median)"" END","IF AVG([Median]) > 0
+THEN ""above median""
+ELSEIF AVG([Median]) < 0 
+THEN ""below median""
+ELSE ""(at median)""
+END",Median,Median,Global Temperatures::Median,
+27,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Global Temperatures,Above Median?," IF AVG([Median]) > 0 THEN ""above median"" ELSEIF AVG([Median]) < 0  THEN ""below median"" ELSE ""(at median)"" END","IF AVG([Median]) > 0
+THEN ""above median""
+ELSEIF AVG([Median]) < 0 
+THEN ""below median""
+ELSE ""(at median)""
+END",Median,Median,Global Temperatures::Median,
+28,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Global Temperatures,Date," DATE(DATEPARSE(""yyyy/MM"",[Year]))","DATE(DATEPARSE(""yyyy/MM"",[Year]))",Year,Year,Global Temperatures::Year,
+29,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Days to Ship Actual," DATEDIFF('day',[Order Date],[Ship Date])","DATEDIFF('day',[Order Date],[Ship Date])",Order Date,Order Date,Sample - Superstore::Order Date,
+30,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Days to Ship Actual," DATEDIFF('day',[Order Date],[Ship Date])","DATEDIFF('day',[Order Date],[Ship Date])",Ship Date,Ship Date,Sample - Superstore::Ship Date,
+31,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Sales Forecast, [Sales]*(1-[Parameters].[Parameter 2])*(1+[Parameters].[Parameter 1]),[Sales]*(1-[Parameters].[Churn Rate])*(1+[Parameters].[New Business Growth]),Sales,Sales,Sample - Superstore::Sales,
+32,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Sales Forecast, [Sales]*(1-[Parameters].[Parameter 2])*(1+[Parameters].[Parameter 1]),[Sales]*(1-[Parameters].[Churn Rate])*(1+[Parameters].[New Business Growth]),,Churn Rate,Parameters::Churn Rate,
+33,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Sales Forecast, [Sales]*(1-[Parameters].[Parameter 2])*(1+[Parameters].[Parameter 1]),[Sales]*(1-[Parameters].[Churn Rate])*(1+[Parameters].[New Business Growth]),,New Business Growth,Parameters::New Business Growth,
+34,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Ship Status," if [Calculation_0831103151444568]> [Calculation_6861103170623145] then ""Shipped Late""  elseIF [Calculation_0831103151444568]= [Calculation_6861103170623145] then ""Shipped On Time"" Else ""Shipped Early"" end","if [Days to Ship Actual]> [Days to Ship Scheduled] then ""Shipped Late"" 
+elseIF [Days to Ship Actual]= [Days to Ship Scheduled] then ""Shipped On Time""
+Else ""Shipped Early"" end",Calculation_0831103151444568,Days to Ship Actual,Sample - Superstore::Days to Ship Actual,
+35,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Ship Status," if [Calculation_0831103151444568]> [Calculation_6861103170623145] then ""Shipped Late""  elseIF [Calculation_0831103151444568]= [Calculation_6861103170623145] then ""Shipped On Time"" Else ""Shipped Early"" end","if [Days to Ship Actual]> [Days to Ship Scheduled] then ""Shipped Late"" 
+elseIF [Days to Ship Actual]= [Days to Ship Scheduled] then ""Shipped On Time""
+Else ""Shipped Early"" end",Calculation_6861103170623145,Days to Ship Scheduled,Sample - Superstore::Days to Ship Scheduled,
+36,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Ship Status," if [Calculation_0831103151444568]> [Calculation_6861103170623145] then ""Shipped Late""  elseIF [Calculation_0831103151444568]= [Calculation_6861103170623145] then ""Shipped On Time"" Else ""Shipped Early"" end","if [Days to Ship Actual]> [Days to Ship Scheduled] then ""Shipped Late"" 
+elseIF [Days to Ship Actual]= [Days to Ship Scheduled] then ""Shipped On Time""
+Else ""Shipped Early"" end",Calculation_0831103151444568,Days to Ship Actual,Sample - Superstore::Days to Ship Actual,
+37,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Ship Status," if [Calculation_0831103151444568]> [Calculation_6861103170623145] then ""Shipped Late""  elseIF [Calculation_0831103151444568]= [Calculation_6861103170623145] then ""Shipped On Time"" Else ""Shipped Early"" end","if [Days to Ship Actual]> [Days to Ship Scheduled] then ""Shipped Late"" 
+elseIF [Days to Ship Actual]= [Days to Ship Scheduled] then ""Shipped On Time""
+Else ""Shipped Early"" end",Calculation_6861103170623145,Days to Ship Scheduled,Sample - Superstore::Days to Ship Scheduled,
+38,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Days to Ship Scheduled," CASE  [Ship Mode] WHEN ""Same Day"" THEN 0 WHEN ""First Class"" THEN 1 WHEN ""Second Class"" THEN 3 WHEN ""Standard Class"" THEN 6 END","CASE  [Ship Mode]
+WHEN ""Same Day"" THEN 0
+WHEN ""First Class"" THEN 1
+WHEN ""Second Class"" THEN 3
+WHEN ""Standard Class"" THEN 6
+END",Ship Mode,Ship Mode,Sample - Superstore::Ship Mode,
+39,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Order Profitable?, {fixed [Order ID]:sum([Profit])}>0 ,"{fixed [Order ID]:sum([Profit])}>0
+// calculates the profit at the order level",Order ID,Order ID,Sample - Superstore::Order ID,
+40,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Order Profitable?, {fixed [Order ID]:sum([Profit])}>0 ,"{fixed [Order ID]:sum([Profit])}>0
+// calculates the profit at the order level",Profit,Profit,Sample - Superstore::Profit,
+41,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Profit per Customer, sum([Profit])/countD([Customer Name]),sum([Profit])/countD([Customer Name]),Profit,Profit,Sample - Superstore::Profit,
+42,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Profit per Customer, sum([Profit])/countD([Customer Name]),sum([Profit])/countD([Customer Name]),Customer Name,Customer Name,Sample - Superstore::Customer Name,
+43,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Sales per Customer, Sum([Sales])/countD([Customer Name]),Sum([Sales])/countD([Customer Name]),Sales,Sales,Sample - Superstore::Sales,
+44,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Sales per Customer, Sum([Sales])/countD([Customer Name]),Sum([Sales])/countD([Customer Name]),Customer Name,Customer Name,Sample - Superstore::Customer Name,
+45,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Profit Ratio, sum([Profit])/sum([Sales]),sum([Profit])/sum([Sales]),Profit,Profit,Sample - Superstore::Profit,
+46,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Profit Ratio, sum([Profit])/sum([Sales]),sum([Profit])/sum([Sales]),Sales,Sales,Sample - Superstore::Sales,
+47,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Sales above Target?," If Sum([Sales])>SUM([federated.0z0pi331stuxay1ce6y5f1yxvsw9].[Sales Target]) then ""Above Target"" else ""Below Target"" end","If Sum([Sales])>SUM([Sales Target Extract].[Sales Target]) then ""Above Target"" else ""Below Target"" end",Sales,Sales,Sample - Superstore::Sales,
+48,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Sales above Target?," If Sum([Sales])>SUM([federated.0z0pi331stuxay1ce6y5f1yxvsw9].[Sales Target]) then ""Above Target"" else ""Below Target"" end","If Sum([Sales])>SUM([Sales Target Extract].[Sales Target]) then ""Above Target"" else ""Below Target"" end",,Sales Target,Sales Target Extract::Sales Target,
+49,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Units estimate," ROUND([Quantity]*(1-[Parameters].[Parameter 2])*(1+[Parameters].[Parameter 1]),0)","ROUND([Quantity]*(1-[Parameters].[Churn Rate])*(1+[Parameters].[New Business Growth]),0)",Quantity,Quantity,Sample - Superstore::Quantity,
+50,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Units estimate," ROUND([Quantity]*(1-[Parameters].[Parameter 2])*(1+[Parameters].[Parameter 1]),0)","ROUND([Quantity]*(1-[Parameters].[Churn Rate])*(1+[Parameters].[New Business Growth]),0)",,Churn Rate,Parameters::Churn Rate,
+51,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Units estimate," ROUND([Quantity]*(1-[Parameters].[Parameter 2])*(1+[Parameters].[Parameter 1]),0)","ROUND([Quantity]*(1-[Parameters].[Churn Rate])*(1+[Parameters].[New Business Growth]),0)",,New Business Growth,Parameters::New Business Growth,
+52,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Profit per Order, Sum([Profit])/countD([Order ID]),Sum([Profit])/countD([Order ID]),Profit,Profit,Sample - Superstore::Profit,
+53,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Profit per Order, Sum([Profit])/countD([Order ID]),Sum([Profit])/countD([Order ID]),Order ID,Order ID,Sample - Superstore::Order ID,
+54,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sales Commission,Achievement (estimated), [Sales],[Sales],Sales,Sales,Sales Commission::Sales,
+55,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sales Commission,Achieved Quota," if SUM([Achievement (copy)]) >= [Parameters].[New Quota] then ""100% +"" elseif SUM([Achievement (copy)]) >= 0.75 * [Parameters].[New Quota] then ""75-100%"" elseif SUM([Achievement (copy)]) >= 0.5 * [Parameters].[New Quota] then ""50-75%"" else ""Below 50%"" end","if SUM([Achievement (estimated)]) >= [Parameters].[New Quota] then ""100% +""
+elseif SUM([Achievement (estimated)]) >= 0.75 * [Parameters].[New Quota] then ""75-100%""
+elseif SUM([Achievement (estimated)]) >= 0.5 * [Parameters].[New Quota] then ""50-75%""
+else ""Below 50%"" end",Achievement (copy),Achievement (estimated),Sales Commission::Achievement (estimated),
+56,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sales Commission,Achieved Quota," if SUM([Achievement (copy)]) >= [Parameters].[New Quota] then ""100% +"" elseif SUM([Achievement (copy)]) >= 0.75 * [Parameters].[New Quota] then ""75-100%"" elseif SUM([Achievement (copy)]) >= 0.5 * [Parameters].[New Quota] then ""50-75%"" else ""Below 50%"" end","if SUM([Achievement (estimated)]) >= [Parameters].[New Quota] then ""100% +""
+elseif SUM([Achievement (estimated)]) >= 0.75 * [Parameters].[New Quota] then ""75-100%""
+elseif SUM([Achievement (estimated)]) >= 0.5 * [Parameters].[New Quota] then ""50-75%""
+else ""Below 50%"" end",,New Quota,Parameters::New Quota,
+57,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sales Commission,Achieved Quota," if SUM([Achievement (copy)]) >= [Parameters].[New Quota] then ""100% +"" elseif SUM([Achievement (copy)]) >= 0.75 * [Parameters].[New Quota] then ""75-100%"" elseif SUM([Achievement (copy)]) >= 0.5 * [Parameters].[New Quota] then ""50-75%"" else ""Below 50%"" end","if SUM([Achievement (estimated)]) >= [Parameters].[New Quota] then ""100% +""
+elseif SUM([Achievement (estimated)]) >= 0.75 * [Parameters].[New Quota] then ""75-100%""
+elseif SUM([Achievement (estimated)]) >= 0.5 * [Parameters].[New Quota] then ""50-75%""
+else ""Below 50%"" end",Achievement (copy),Achievement (estimated),Sales Commission::Achievement (estimated),
+58,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sales Commission,Achieved Quota," if SUM([Achievement (copy)]) >= [Parameters].[New Quota] then ""100% +"" elseif SUM([Achievement (copy)]) >= 0.75 * [Parameters].[New Quota] then ""75-100%"" elseif SUM([Achievement (copy)]) >= 0.5 * [Parameters].[New Quota] then ""50-75%"" else ""Below 50%"" end","if SUM([Achievement (estimated)]) >= [Parameters].[New Quota] then ""100% +""
+elseif SUM([Achievement (estimated)]) >= 0.75 * [Parameters].[New Quota] then ""75-100%""
+elseif SUM([Achievement (estimated)]) >= 0.5 * [Parameters].[New Quota] then ""50-75%""
+else ""Below 50%"" end",,New Quota,Parameters::New Quota,
+59,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sales Commission,Achieved Quota," if SUM([Achievement (copy)]) >= [Parameters].[New Quota] then ""100% +"" elseif SUM([Achievement (copy)]) >= 0.75 * [Parameters].[New Quota] then ""75-100%"" elseif SUM([Achievement (copy)]) >= 0.5 * [Parameters].[New Quota] then ""50-75%"" else ""Below 50%"" end","if SUM([Achievement (estimated)]) >= [Parameters].[New Quota] then ""100% +""
+elseif SUM([Achievement (estimated)]) >= 0.75 * [Parameters].[New Quota] then ""75-100%""
+elseif SUM([Achievement (estimated)]) >= 0.5 * [Parameters].[New Quota] then ""50-75%""
+else ""Below 50%"" end",Achievement (copy),Achievement (estimated),Sales Commission::Achievement (estimated),
+60,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sales Commission,Achieved Quota," if SUM([Achievement (copy)]) >= [Parameters].[New Quota] then ""100% +"" elseif SUM([Achievement (copy)]) >= 0.75 * [Parameters].[New Quota] then ""75-100%"" elseif SUM([Achievement (copy)]) >= 0.5 * [Parameters].[New Quota] then ""50-75%"" else ""Below 50%"" end","if SUM([Achievement (estimated)]) >= [Parameters].[New Quota] then ""100% +""
+elseif SUM([Achievement (estimated)]) >= 0.75 * [Parameters].[New Quota] then ""75-100%""
+elseif SUM([Achievement (estimated)]) >= 0.5 * [Parameters].[New Quota] then ""50-75%""
+else ""Below 50%"" end",,New Quota,Parameters::New Quota,
+61,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sales Commission,Base (Variable), [Parameters].[Base Salary],[Parameters].[Base Salary],,Base Salary,Parameters::Base Salary,
+62,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sales Commission,% of quota achieved, AVG([Achievement (copy)])/[Parameters].[New Quota],AVG([Achievement (estimated)])/[Parameters].[New Quota],Achievement (copy),Achievement (estimated),Sales Commission::Achievement (estimated),
+63,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sales Commission,% of quota achieved, AVG([Achievement (copy)])/[Parameters].[New Quota],AVG([Achievement (estimated)])/[Parameters].[New Quota],,New Quota,Parameters::New Quota,
+64,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sales Commission,Sort by field," if [Parameters].[Parameter 1 1]=""Names"" then 0 elseif [Parameters].[Parameter 1 1]=""% quota descending"" then -[Calculation_0440925131659539] else [Calculation_0440925131659539] end","if [Parameters].[Sort by]=""Names"" then 0
+elseif [Parameters].[Sort by]=""% quota descending"" then -[% of quota achieved]
+else [% of quota achieved] end",,Sort by,Parameters::Sort by,
+65,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sales Commission,Sort by field," if [Parameters].[Parameter 1 1]=""Names"" then 0 elseif [Parameters].[Parameter 1 1]=""% quota descending"" then -[Calculation_0440925131659539] else [Calculation_0440925131659539] end","if [Parameters].[Sort by]=""Names"" then 0
+elseif [Parameters].[Sort by]=""% quota descending"" then -[% of quota achieved]
+else [% of quota achieved] end",,Sort by,Parameters::Sort by,
+66,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sales Commission,Sort by field," if [Parameters].[Parameter 1 1]=""Names"" then 0 elseif [Parameters].[Parameter 1 1]=""% quota descending"" then -[Calculation_0440925131659539] else [Calculation_0440925131659539] end","if [Parameters].[Sort by]=""Names"" then 0
+elseif [Parameters].[Sort by]=""% quota descending"" then -[% of quota achieved]
+else [% of quota achieved] end",Calculation_0440925131659539,% of quota achieved,Sales Commission::% of quota achieved,
+67,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sales Commission,Sort by field," if [Parameters].[Parameter 1 1]=""Names"" then 0 elseif [Parameters].[Parameter 1 1]=""% quota descending"" then -[Calculation_0440925131659539] else [Calculation_0440925131659539] end","if [Parameters].[Sort by]=""Names"" then 0
+elseif [Parameters].[Sort by]=""% quota descending"" then -[% of quota achieved]
+else [% of quota achieved] end",Calculation_0440925131659539,% of quota achieved,Sales Commission::% of quota achieved,
+68,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sales Commission,Commission (Variable), ([Parameters].[Commission Rate]*[Sales])/100,([Parameters].[Commission Rate]*[Sales])/100,,Commission Rate,Parameters::Commission Rate,
+69,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sales Commission,Commission (Variable), ([Parameters].[Commission Rate]*[Sales])/100,([Parameters].[Commission Rate]*[Sales])/100,Sales,Sales,Sales Commission::Sales,
+70,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sales Commission,OTE (Variable), [Parameters].[Base Salary] + ([Parameters].[Commission Rate]*[Parameters].[New Quota])/100,[Parameters].[Base Salary] + ([Parameters].[Commission Rate]*[Parameters].[New Quota])/100,,Base Salary,Parameters::Base Salary,
+71,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sales Commission,OTE (Variable), [Parameters].[Base Salary] + ([Parameters].[Commission Rate]*[Parameters].[New Quota])/100,[Parameters].[Base Salary] + ([Parameters].[Commission Rate]*[Parameters].[New Quota])/100,,Commission Rate,Parameters::Commission Rate,
+72,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sales Commission,OTE (Variable), [Parameters].[Base Salary] + ([Parameters].[Commission Rate]*[Parameters].[New Quota])/100,[Parameters].[Base Salary] + ([Parameters].[Commission Rate]*[Parameters].[New Quota])/100,,New Quota,Parameters::New Quota,
+73,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sales Commission,Total Compensation, MIN([Base (Variable)]) + SUM([Commission (Variable)]),MIN([Base (Variable)]) + SUM([Commission (Variable)]),Base (Variable),Base (Variable),Sales Commission::Base (Variable),
+74,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sales Commission,Total Compensation, MIN([Base (Variable)]) + SUM([Commission (Variable)]),MIN([Base (Variable)]) + SUM([Commission (Variable)]),Commission (Variable),Commission (Variable),Sales Commission::Commission (Variable),
+1,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Education,True Average, {SUM([Calculation_7540328115524419])/SUM(1)}   ,"{SUM([Total Score])/SUM(1)}
+//Because this is a table-scoped LOD, filters 
+//need to be context filters so that they are 
+//evaluated prior to the calculation",Calculation_7540328115524419,Total Score,Education::Total Score,
+2,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Education,Total Score, [Math]+[Verbal]+[Writing],[Math]+[Verbal]+[Writing],Math,Math,Education::Math,
+3,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Education,Total Score, [Math]+[Verbal]+[Writing],[Math]+[Verbal]+[Writing],Verbal,Verbal,Education::Verbal,
+4,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Education,Total Score, [Math]+[Verbal]+[Writing],[Math]+[Verbal]+[Writing],Writing,Writing,Education::Writing,
+5,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Flight,% of Delayed Flights," Sum(if contains([Ontime Category], ""Delayed"") then [Number of Flights] else 0 end)/sum([Number of Flights])","Sum(if contains([Ontime Category], ""Delayed"") then [Number of Flights] else 0 end)/sum([Number of Flights])",Ontime Category,Ontime Category,Flight::Ontime Category,
+6,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Flight,% of Delayed Flights," Sum(if contains([Ontime Category], ""Delayed"") then [Number of Flights] else 0 end)/sum([Number of Flights])","Sum(if contains([Ontime Category], ""Delayed"") then [Number of Flights] else 0 end)/sum([Number of Flights])",Number of Flights,Number of Flights,Flight::Number of Flights,
+7,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Flight,% of Delayed Flights," Sum(if contains([Ontime Category], ""Delayed"") then [Number of Flights] else 0 end)/sum([Number of Flights])","Sum(if contains([Ontime Category], ""Delayed"") then [Number of Flights] else 0 end)/sum([Number of Flights])",Number of Flights,Number of Flights,Flight::Number of Flights,
+8,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Flight,Minutes of Delay per Flight, [Minutes of Delay]/[Number of Flights],[Minutes of Delay]/[Number of Flights],Minutes of Delay,Minutes of Delay,Flight::Minutes of Delay,
+9,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Flight,Minutes of Delay per Flight, [Minutes of Delay]/[Number of Flights],[Minutes of Delay]/[Number of Flights],Number of Flights,Number of Flights,Flight::Number of Flights,
+10,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Regional Obesity Rate, {FIXED [Region]: AVG([Adult Obesity (% of pop)])},{FIXED [Region]: AVG([Adult Obesity (% of pop)])},Region,Region,Obesity::Region,
+11,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Regional Obesity Rate, {FIXED [Region]: AVG([Adult Obesity (% of pop)])},{FIXED [Region]: AVG([Adult Obesity (% of pop)])},Adult Obesity (% of pop),Adult Obesity (% of pop),Obesity::Adult Obesity (% of pop),
+12,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",Calculation_547187368111550464,Regional Obesity Rate,Obesity::Regional Obesity Rate,
+13,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",State,State,Obesity::State,
+14,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",County,County,Obesity::County,
+15,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",Adult Obesity (% of pop),Adult Obesity (% of pop),Obesity::Adult Obesity (% of pop),
+16,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",Calculation_547187368111550464,Regional Obesity Rate,Obesity::Regional Obesity Rate,
+17,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",State,State,Obesity::State,
+18,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",County,County,Obesity::County,
+19,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",Adult Obesity (% of pop),Adult Obesity (% of pop),Obesity::Adult Obesity (% of pop),
+20,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",Calculation_655836709784489985,Difference from Region,Obesity::Difference from Region,
+21,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Above or Below?," IF ROUND([Calculation_547187368111550464],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN ""on par with"" ELSEIF ROUND([Calculation_547187368111550464],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)  THEN STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% above"" ELSE STR(ROUND(([Calculation_655836709784489985]*100),2)) + ""% below"" END","IF ROUND([Regional Obesity Rate],2) = ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN ""on par with""
+ELSEIF ROUND([Regional Obesity Rate],2) < ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)
+ THEN STR(ROUND(([Difference from Region]*100),2)) + ""% above""
+ELSE STR(ROUND(([Difference from Region]*100),2)) + ""% below""
+END",Calculation_655836709784489985,Difference from Region,Obesity::Difference from Region,
+22,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Difference from Region," ABS(ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)- ROUND([Calculation_547187368111550464],2))","ABS(ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)- ROUND([Regional Obesity Rate],2))",State,State,Obesity::State,
+23,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Difference from Region," ABS(ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)- ROUND([Calculation_547187368111550464],2))","ABS(ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)- ROUND([Regional Obesity Rate],2))",County,County,Obesity::County,
+24,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Difference from Region," ABS(ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)- ROUND([Calculation_547187368111550464],2))","ABS(ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)- ROUND([Regional Obesity Rate],2))",Adult Obesity (% of pop),Adult Obesity (% of pop),Obesity::Adult Obesity (% of pop),
+25,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Obesity,Difference from Region," ABS(ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)- ROUND([Calculation_547187368111550464],2))","ABS(ROUND({FIXED [State],[County]: AVG([Adult Obesity (% of pop)])},2)- ROUND([Regional Obesity Rate],2))",Calculation_547187368111550464,Regional Obesity Rate,Obesity::Regional Obesity Rate,
+26,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Global Temperatures,Above Median?," IF AVG([Median]) > 0 THEN ""above median"" ELSEIF AVG([Median]) < 0  THEN ""below median"" ELSE ""(at median)"" END","IF AVG([Median]) > 0
+THEN ""above median""
+ELSEIF AVG([Median]) < 0 
+THEN ""below median""
+ELSE ""(at median)""
+END",Median,Median,Global Temperatures::Median,
+27,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Global Temperatures,Above Median?," IF AVG([Median]) > 0 THEN ""above median"" ELSEIF AVG([Median]) < 0  THEN ""below median"" ELSE ""(at median)"" END","IF AVG([Median]) > 0
+THEN ""above median""
+ELSEIF AVG([Median]) < 0 
+THEN ""below median""
+ELSE ""(at median)""
+END",Median,Median,Global Temperatures::Median,
+28,Regional.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Global Temperatures,Date," DATE(DATEPARSE(""yyyy/MM"",[Year]))","DATE(DATEPARSE(""yyyy/MM"",[Year]))",Year,Year,Global Temperatures::Year,
+29,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Days to Ship Actual," DATEDIFF('day',[Order Date],[Ship Date])","DATEDIFF('day',[Order Date],[Ship Date])",Order Date,Order Date,Sample - Superstore::Order Date,
+30,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Days to Ship Actual," DATEDIFF('day',[Order Date],[Ship Date])","DATEDIFF('day',[Order Date],[Ship Date])",Ship Date,Ship Date,Sample - Superstore::Ship Date,
+31,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Sales Forecast, [Sales]*(1-[Parameters].[Parameter 2])*(1+[Parameters].[Parameter 1]),[Sales]*(1-[Parameters].[Churn Rate])*(1+[Parameters].[New Business Growth]),Sales,Sales,Sample - Superstore::Sales,
+32,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Sales Forecast, [Sales]*(1-[Parameters].[Parameter 2])*(1+[Parameters].[Parameter 1]),[Sales]*(1-[Parameters].[Churn Rate])*(1+[Parameters].[New Business Growth]),,Churn Rate,Parameters::Churn Rate,
+33,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Sales Forecast, [Sales]*(1-[Parameters].[Parameter 2])*(1+[Parameters].[Parameter 1]),[Sales]*(1-[Parameters].[Churn Rate])*(1+[Parameters].[New Business Growth]),,New Business Growth,Parameters::New Business Growth,
+34,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Ship Status," if [Calculation_0831103151444568]> [Calculation_6861103170623145] then ""Shipped Late""  elseIF [Calculation_0831103151444568]= [Calculation_6861103170623145] then ""Shipped On Time"" Else ""Shipped Early"" end","if [Days to Ship Actual]> [Days to Ship Scheduled] then ""Shipped Late"" 
+elseIF [Days to Ship Actual]= [Days to Ship Scheduled] then ""Shipped On Time""
+Else ""Shipped Early"" end",Calculation_0831103151444568,Days to Ship Actual,Sample - Superstore::Days to Ship Actual,
+35,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Ship Status," if [Calculation_0831103151444568]> [Calculation_6861103170623145] then ""Shipped Late""  elseIF [Calculation_0831103151444568]= [Calculation_6861103170623145] then ""Shipped On Time"" Else ""Shipped Early"" end","if [Days to Ship Actual]> [Days to Ship Scheduled] then ""Shipped Late"" 
+elseIF [Days to Ship Actual]= [Days to Ship Scheduled] then ""Shipped On Time""
+Else ""Shipped Early"" end",Calculation_6861103170623145,Days to Ship Scheduled,Sample - Superstore::Days to Ship Scheduled,
+36,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Ship Status," if [Calculation_0831103151444568]> [Calculation_6861103170623145] then ""Shipped Late""  elseIF [Calculation_0831103151444568]= [Calculation_6861103170623145] then ""Shipped On Time"" Else ""Shipped Early"" end","if [Days to Ship Actual]> [Days to Ship Scheduled] then ""Shipped Late"" 
+elseIF [Days to Ship Actual]= [Days to Ship Scheduled] then ""Shipped On Time""
+Else ""Shipped Early"" end",Calculation_0831103151444568,Days to Ship Actual,Sample - Superstore::Days to Ship Actual,
+37,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Ship Status," if [Calculation_0831103151444568]> [Calculation_6861103170623145] then ""Shipped Late""  elseIF [Calculation_0831103151444568]= [Calculation_6861103170623145] then ""Shipped On Time"" Else ""Shipped Early"" end","if [Days to Ship Actual]> [Days to Ship Scheduled] then ""Shipped Late"" 
+elseIF [Days to Ship Actual]= [Days to Ship Scheduled] then ""Shipped On Time""
+Else ""Shipped Early"" end",Calculation_6861103170623145,Days to Ship Scheduled,Sample - Superstore::Days to Ship Scheduled,
+38,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Days to Ship Scheduled," CASE  [Ship Mode] WHEN ""Same Day"" THEN 0 WHEN ""First Class"" THEN 1 WHEN ""Second Class"" THEN 3 WHEN ""Standard Class"" THEN 6 END","CASE  [Ship Mode]
+WHEN ""Same Day"" THEN 0
+WHEN ""First Class"" THEN 1
+WHEN ""Second Class"" THEN 3
+WHEN ""Standard Class"" THEN 6
+END",Ship Mode,Ship Mode,Sample - Superstore::Ship Mode,
+39,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Order Profitable?, {fixed [Order ID]:sum([Profit])}>0 ,"{fixed [Order ID]:sum([Profit])}>0
+// calculates the profit at the order level",Order ID,Order ID,Sample - Superstore::Order ID,
+40,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Order Profitable?, {fixed [Order ID]:sum([Profit])}>0 ,"{fixed [Order ID]:sum([Profit])}>0
+// calculates the profit at the order level",Profit,Profit,Sample - Superstore::Profit,
+41,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Profit per Customer, sum([Profit])/countD([Customer Name]),sum([Profit])/countD([Customer Name]),Profit,Profit,Sample - Superstore::Profit,
+42,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Profit per Customer, sum([Profit])/countD([Customer Name]),sum([Profit])/countD([Customer Name]),Customer Name,Customer Name,Sample - Superstore::Customer Name,
+43,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Sales per Customer, Sum([Sales])/countD([Customer Name]),Sum([Sales])/countD([Customer Name]),Sales,Sales,Sample - Superstore::Sales,
+44,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Sales per Customer, Sum([Sales])/countD([Customer Name]),Sum([Sales])/countD([Customer Name]),Customer Name,Customer Name,Sample - Superstore::Customer Name,
+45,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Profit Ratio, sum([Profit])/sum([Sales]),sum([Profit])/sum([Sales]),Profit,Profit,Sample - Superstore::Profit,
+46,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Profit Ratio, sum([Profit])/sum([Sales]),sum([Profit])/sum([Sales]),Sales,Sales,Sample - Superstore::Sales,
+47,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Sales above Target?," If Sum([Sales])>SUM([federated.0z0pi331stuxay1ce6y5f1yxvsw9].[Sales Target]) then ""Above Target"" else ""Below Target"" end","If Sum([Sales])>SUM([Sales Target Extract].[Sales Target]) then ""Above Target"" else ""Below Target"" end",Sales,Sales,Sample - Superstore::Sales,
+48,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Sales above Target?," If Sum([Sales])>SUM([federated.0z0pi331stuxay1ce6y5f1yxvsw9].[Sales Target]) then ""Above Target"" else ""Below Target"" end","If Sum([Sales])>SUM([Sales Target Extract].[Sales Target]) then ""Above Target"" else ""Below Target"" end",,Sales Target,Sales Target Extract::Sales Target,
+49,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Units estimate," ROUND([Quantity]*(1-[Parameters].[Parameter 2])*(1+[Parameters].[Parameter 1]),0)","ROUND([Quantity]*(1-[Parameters].[Churn Rate])*(1+[Parameters].[New Business Growth]),0)",Quantity,Quantity,Sample - Superstore::Quantity,
+50,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Units estimate," ROUND([Quantity]*(1-[Parameters].[Parameter 2])*(1+[Parameters].[Parameter 1]),0)","ROUND([Quantity]*(1-[Parameters].[Churn Rate])*(1+[Parameters].[New Business Growth]),0)",,Churn Rate,Parameters::Churn Rate,
+51,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Units estimate," ROUND([Quantity]*(1-[Parameters].[Parameter 2])*(1+[Parameters].[Parameter 1]),0)","ROUND([Quantity]*(1-[Parameters].[Churn Rate])*(1+[Parameters].[New Business Growth]),0)",,New Business Growth,Parameters::New Business Growth,
+52,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Profit per Order, Sum([Profit])/countD([Order ID]),Sum([Profit])/countD([Order ID]),Profit,Profit,Sample - Superstore::Profit,
+53,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sample - Superstore,Profit per Order, Sum([Profit])/countD([Order ID]),Sum([Profit])/countD([Order ID]),Order ID,Order ID,Sample - Superstore::Order ID,
+54,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sales Commission,Achievement (estimated), [Sales],[Sales],Sales,Sales,Sales Commission::Sales,
+55,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sales Commission,Achieved Quota," if SUM([Achievement (copy)]) >= [Parameters].[New Quota] then ""100% +"" elseif SUM([Achievement (copy)]) >= 0.75 * [Parameters].[New Quota] then ""75-100%"" elseif SUM([Achievement (copy)]) >= 0.5 * [Parameters].[New Quota] then ""50-75%"" else ""Below 50%"" end","if SUM([Achievement (estimated)]) >= [Parameters].[New Quota] then ""100% +""
+elseif SUM([Achievement (estimated)]) >= 0.75 * [Parameters].[New Quota] then ""75-100%""
+elseif SUM([Achievement (estimated)]) >= 0.5 * [Parameters].[New Quota] then ""50-75%""
+else ""Below 50%"" end",Achievement (copy),Achievement (estimated),Sales Commission::Achievement (estimated),
+56,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sales Commission,Achieved Quota," if SUM([Achievement (copy)]) >= [Parameters].[New Quota] then ""100% +"" elseif SUM([Achievement (copy)]) >= 0.75 * [Parameters].[New Quota] then ""75-100%"" elseif SUM([Achievement (copy)]) >= 0.5 * [Parameters].[New Quota] then ""50-75%"" else ""Below 50%"" end","if SUM([Achievement (estimated)]) >= [Parameters].[New Quota] then ""100% +""
+elseif SUM([Achievement (estimated)]) >= 0.75 * [Parameters].[New Quota] then ""75-100%""
+elseif SUM([Achievement (estimated)]) >= 0.5 * [Parameters].[New Quota] then ""50-75%""
+else ""Below 50%"" end",,New Quota,Parameters::New Quota,
+57,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sales Commission,Achieved Quota," if SUM([Achievement (copy)]) >= [Parameters].[New Quota] then ""100% +"" elseif SUM([Achievement (copy)]) >= 0.75 * [Parameters].[New Quota] then ""75-100%"" elseif SUM([Achievement (copy)]) >= 0.5 * [Parameters].[New Quota] then ""50-75%"" else ""Below 50%"" end","if SUM([Achievement (estimated)]) >= [Parameters].[New Quota] then ""100% +""
+elseif SUM([Achievement (estimated)]) >= 0.75 * [Parameters].[New Quota] then ""75-100%""
+elseif SUM([Achievement (estimated)]) >= 0.5 * [Parameters].[New Quota] then ""50-75%""
+else ""Below 50%"" end",Achievement (copy),Achievement (estimated),Sales Commission::Achievement (estimated),
+58,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sales Commission,Achieved Quota," if SUM([Achievement (copy)]) >= [Parameters].[New Quota] then ""100% +"" elseif SUM([Achievement (copy)]) >= 0.75 * [Parameters].[New Quota] then ""75-100%"" elseif SUM([Achievement (copy)]) >= 0.5 * [Parameters].[New Quota] then ""50-75%"" else ""Below 50%"" end","if SUM([Achievement (estimated)]) >= [Parameters].[New Quota] then ""100% +""
+elseif SUM([Achievement (estimated)]) >= 0.75 * [Parameters].[New Quota] then ""75-100%""
+elseif SUM([Achievement (estimated)]) >= 0.5 * [Parameters].[New Quota] then ""50-75%""
+else ""Below 50%"" end",,New Quota,Parameters::New Quota,
+59,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sales Commission,Achieved Quota," if SUM([Achievement (copy)]) >= [Parameters].[New Quota] then ""100% +"" elseif SUM([Achievement (copy)]) >= 0.75 * [Parameters].[New Quota] then ""75-100%"" elseif SUM([Achievement (copy)]) >= 0.5 * [Parameters].[New Quota] then ""50-75%"" else ""Below 50%"" end","if SUM([Achievement (estimated)]) >= [Parameters].[New Quota] then ""100% +""
+elseif SUM([Achievement (estimated)]) >= 0.75 * [Parameters].[New Quota] then ""75-100%""
+elseif SUM([Achievement (estimated)]) >= 0.5 * [Parameters].[New Quota] then ""50-75%""
+else ""Below 50%"" end",Achievement (copy),Achievement (estimated),Sales Commission::Achievement (estimated),
+60,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sales Commission,Achieved Quota," if SUM([Achievement (copy)]) >= [Parameters].[New Quota] then ""100% +"" elseif SUM([Achievement (copy)]) >= 0.75 * [Parameters].[New Quota] then ""75-100%"" elseif SUM([Achievement (copy)]) >= 0.5 * [Parameters].[New Quota] then ""50-75%"" else ""Below 50%"" end","if SUM([Achievement (estimated)]) >= [Parameters].[New Quota] then ""100% +""
+elseif SUM([Achievement (estimated)]) >= 0.75 * [Parameters].[New Quota] then ""75-100%""
+elseif SUM([Achievement (estimated)]) >= 0.5 * [Parameters].[New Quota] then ""50-75%""
+else ""Below 50%"" end",,New Quota,Parameters::New Quota,
+61,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sales Commission,Base (Variable), [Parameters].[Base Salary],[Parameters].[Base Salary],,Base Salary,Parameters::Base Salary,
+62,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sales Commission,% of quota achieved, AVG([Achievement (copy)])/[Parameters].[New Quota],AVG([Achievement (estimated)])/[Parameters].[New Quota],Achievement (copy),Achievement (estimated),Sales Commission::Achievement (estimated),
+63,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sales Commission,% of quota achieved, AVG([Achievement (copy)])/[Parameters].[New Quota],AVG([Achievement (estimated)])/[Parameters].[New Quota],,New Quota,Parameters::New Quota,
+64,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sales Commission,Sort by field," if [Parameters].[Parameter 1 1]=""Names"" then 0 elseif [Parameters].[Parameter 1 1]=""% quota descending"" then -[Calculation_0440925131659539] else [Calculation_0440925131659539] end","if [Parameters].[Sort by]=""Names"" then 0
+elseif [Parameters].[Sort by]=""% quota descending"" then -[% of quota achieved]
+else [% of quota achieved] end",,Sort by,Parameters::Sort by,
+65,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sales Commission,Sort by field," if [Parameters].[Parameter 1 1]=""Names"" then 0 elseif [Parameters].[Parameter 1 1]=""% quota descending"" then -[Calculation_0440925131659539] else [Calculation_0440925131659539] end","if [Parameters].[Sort by]=""Names"" then 0
+elseif [Parameters].[Sort by]=""% quota descending"" then -[% of quota achieved]
+else [% of quota achieved] end",,Sort by,Parameters::Sort by,
+66,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sales Commission,Sort by field," if [Parameters].[Parameter 1 1]=""Names"" then 0 elseif [Parameters].[Parameter 1 1]=""% quota descending"" then -[Calculation_0440925131659539] else [Calculation_0440925131659539] end","if [Parameters].[Sort by]=""Names"" then 0
+elseif [Parameters].[Sort by]=""% quota descending"" then -[% of quota achieved]
+else [% of quota achieved] end",Calculation_0440925131659539,% of quota achieved,Sales Commission::% of quota achieved,
+67,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sales Commission,Sort by field," if [Parameters].[Parameter 1 1]=""Names"" then 0 elseif [Parameters].[Parameter 1 1]=""% quota descending"" then -[Calculation_0440925131659539] else [Calculation_0440925131659539] end","if [Parameters].[Sort by]=""Names"" then 0
+elseif [Parameters].[Sort by]=""% quota descending"" then -[% of quota achieved]
+else [% of quota achieved] end",Calculation_0440925131659539,% of quota achieved,Sales Commission::% of quota achieved,
+68,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sales Commission,Commission (Variable), ([Parameters].[Commission Rate]*[Sales])/100,([Parameters].[Commission Rate]*[Sales])/100,,Commission Rate,Parameters::Commission Rate,
+69,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sales Commission,Commission (Variable), ([Parameters].[Commission Rate]*[Sales])/100,([Parameters].[Commission Rate]*[Sales])/100,Sales,Sales,Sales Commission::Sales,
+70,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sales Commission,OTE (Variable), [Parameters].[Base Salary] + ([Parameters].[Commission Rate]*[Parameters].[New Quota])/100,[Parameters].[Base Salary] + ([Parameters].[Commission Rate]*[Parameters].[New Quota])/100,,Base Salary,Parameters::Base Salary,
+71,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sales Commission,OTE (Variable), [Parameters].[Base Salary] + ([Parameters].[Commission Rate]*[Parameters].[New Quota])/100,[Parameters].[Base Salary] + ([Parameters].[Commission Rate]*[Parameters].[New Quota])/100,,Commission Rate,Parameters::Commission Rate,
+72,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sales Commission,OTE (Variable), [Parameters].[Base Salary] + ([Parameters].[Commission Rate]*[Parameters].[New Quota])/100,[Parameters].[Base Salary] + ([Parameters].[Commission Rate]*[Parameters].[New Quota])/100,,New Quota,Parameters::New Quota,
+73,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sales Commission,Total Compensation, MIN([Base (Variable)]) + SUM([Commission (Variable)]),MIN([Base (Variable)]) + SUM([Commission (Variable)]),Base (Variable),Base (Variable),Sales Commission::Base (Variable),
+74,Superstore.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,Sales Commission,Total Compensation, MIN([Base (Variable)]) + SUM([Commission (Variable)]),MIN([Base (Variable)]) + SUM([Commission (Variable)]),Commission (Variable),Commission (Variable),Sales Commission::Commission (Variable),
+75,World Indicators.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,World Indicators,Above Threshold?," if [Health Exp % GDP]>[Parameters].[Parameter 1] then ""Above Threshold"" else ""Below Threshold"" end","if [Health Exp % GDP]>[Parameters].[Health Exp Threshold] then ""Above Threshold"" else ""Below Threshold"" end",Health Exp % GDP,Health Exp % GDP,World Indicators::Health Exp % GDP,
+76,World Indicators.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,World Indicators,Above Threshold?," if [Health Exp % GDP]>[Parameters].[Parameter 1] then ""Above Threshold"" else ""Below Threshold"" end","if [Health Exp % GDP]>[Parameters].[Health Exp Threshold] then ""Above Threshold"" else ""Below Threshold"" end",,Health Exp Threshold,Parameters::Health Exp Threshold,
+77,World Indicators.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,World Indicators,GDP per Capita, [GDP]/[Population Total],[GDP]/[Population Total],GDP,GDP,World Indicators::GDP,
+78,World Indicators.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,World Indicators,GDP per Capita, [GDP]/[Population Total],[GDP]/[Population Total],Population Total,Population Total,World Indicators::Population Total,
+79,World Indicators.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,World Indicators,Birth Rate Bin," if ([Birth Rate])<0.015 then ""Below 1.5%"" elseif ([Birth Rate])<0.03 then ""1.5-3%"" else ""Above 3%"" end","if ([Birth Rate])<0.015 then ""Below 1.5%"" elseif
+([Birth Rate])<0.03 then ""1.5-3%"" else
+""Above 3%"" end",Birth Rate,Birth Rate,World Indicators::Birth Rate,
+80,World Indicators.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,World Indicators,Birth Rate Bin," if ([Birth Rate])<0.015 then ""Below 1.5%"" elseif ([Birth Rate])<0.03 then ""1.5-3%"" else ""Above 3%"" end","if ([Birth Rate])<0.015 then ""Below 1.5%"" elseif
+([Birth Rate])<0.03 then ""1.5-3%"" else
+""Above 3%"" end",Birth Rate,Birth Rate,World Indicators::Birth Rate,
+81,World Indicators.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,World Indicators,Life Expectancy, ([Life Expectancy Female]+[Life Expectancy Male])/2,([Life Expectancy Female]+[Life Expectancy Male])/2,Life Expectancy Female,Life Expectancy Female,World Indicators::Life Expectancy Female,
+82,World Indicators.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,World Indicators,Life Expectancy, ([Life Expectancy Female]+[Life Expectancy Male])/2,([Life Expectancy Female]+[Life Expectancy Male])/2,Life Expectancy Male,Life Expectancy Male,World Indicators::Life Expectancy Male,
+83,World Indicators.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,World Indicators,Ease of Business (clusters),grouped <<[Country]>> values,grouped <<[Country]>> values,Country,Country,World Indicators::Country,
+84,World Indicators.twbx,C:/tech/Tableau/Tableau Tools/TWBs/Tableau Sample Workbooks,World Indicators,GDP per Capita (bin), [Calculation_1554586357495853057],[GDP per Capita],Calculation_1554586357495853057,GDP per Capita,World Indicators::GDP per Capita,

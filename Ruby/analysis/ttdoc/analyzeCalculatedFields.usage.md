@@ -55,6 +55,6 @@
     That's all, folks.
 --- 
 
-The CSV files can now be used to identify the Calculated Fields, their Formulas, the fields they reference, the Workbooks and Data Sources they are from. The provided Tableau Workbook: 'Calculated Fields - Base Data.twb' connects to each of the CSV files and has a starter Worksheet for each, as shown here:
+The CSV files can now be used to identify the Calculated Fields, their Formulas, the fields they reference, the Workbooks and Data Sources they are from. The provided Tableau Workbook: 'Calculated Fields - Base Data.twb' connects to each of the CSV files and has a starter Worksheet for each, available [here](https://github.com/ChrisGerrard/Tableau-Tools/blob/master/Ruby/analysis/ttdoc/Calculated%20Fields%20-%20Base%20Data.twb "Caalculated Fields - Base Data"), and shown here:
 ![Tableau Workbook - Calculated Fields - Base Data.twb](https://github.com/ChrisGerrard/Tableau-Tools/blob/master/Ruby/analysis/ttdoc/Calculated%20Fields%20-%20Base%20Data%2C%20Calculated%20Field%20Formula%20Lines%20sheet.PNG)
 

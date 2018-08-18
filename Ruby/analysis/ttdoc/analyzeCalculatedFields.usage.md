@@ -55,6 +55,11 @@
     That's all, folks.
 --- 
 
-The CSV files can now be used to identify the Calculated Fields, their Formulas, the fields they reference, the Workbooks and Data Sources they are from. The provided Tableau Workbook: 'Calculated Fields - Base Data.twbx' connects to each of the CSV files and has a starter Worksheet for each, [downloadable from here](https://github.com/ChrisGerrard/Tableau-Tools/blob/master/Ruby/analysis/ttdoc/Calculated%20Fields%20-%20Base%20Data.twbx "abc"). and 
-shown here:
+The CSV files can now be used to identify the Calculated Fields, their Formulas, the fields they reference, the Workbooks and Data Sources they are from. The provided Tableau Workbook: 'Calculated Fields - Base Data.twbx' connects to each of the CSV files and has a starter Worksheet for each, [downloadable from here](https://github.com/ChrisGerrard/Tableau-Tools/blob/master/Ruby/analysis/ttdoc/Calculated%20Fields%20-%20Base%20Data.twbx "abc"). 
+
+One sheet is shown here:
 ![Tableau Workbook - Calculated Fields - Base Data.twbx](https://github.com/ChrisGerrard/Tableau-Tools/blob/master/Ruby/analysis/ttdoc/Calculated%20Fields%20-%20Base%20Data%2C%20Calculated%20Field%20Formula%20Lines%20sheet.PNG)
+
+Workbook notes:
+- The Workbook is configured to pick up the CSV files from the current directory; this will be hard wired to whichever directory the Workbook is using when it's saved.
+- The Workbook is packaged simply to avoid GitHub from presenting it as XML text by default &ndash; this can be confusing to people who aren't aware of or used to seeing Workbooks as XML.

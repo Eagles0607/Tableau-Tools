@@ -55,4 +55,5 @@
     That's all, folks.
 --- 
 
+The CSV files can now be used to identify the Calculated Fields, their Formulas, the fields they reference, the Workbooks and Data Sources they are from. The provided Tableau Workbook: 'Calculated Fields - Base Data.twb' connects to each of the CSV files and has a starter Worksheet for each.
 

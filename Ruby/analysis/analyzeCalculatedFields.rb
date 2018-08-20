@@ -38,7 +38,7 @@ def processTwb twbName
     $nodes.merge $analyzer.nodes
     $edges.merge $analyzer.edges
     # --
-    $markdown.processTwb twb     
+    $markdown.processTWB twb     
     # --
     $twbCount      += 1
     $calcFields    += $analyzer.calculatedFieldsCount
@@ -59,11 +59,11 @@ Dir.glob(path) { |twb| processTwb twb if twb =~ /twb[x]?$/ && twb !~ /dot[.]twb[
 
 puts  "\n "
 puts  "  Analysis complete, found: #{$twbCount} Workbooks"
-puts  "  Calculated  fields: #{$calcFields}"
-puts  "  Fields in Formulas: #{$formulaFields}"
-puts  "                  in: #{$twbCount} Workbooks"
-puts  "             # nodes: %8d  occurrences of %8d unique nodes" % [$nodesCnt, $nodes.length]
-puts  "             # edges: %8d       ''        %8d   ''   edges" % [$edgesCnt, $edges.length]
+puts  "  Calculated  fields: %5d " % [$calcFields]
+puts  "  Fields in Formulas: %5d " % [$formulaFields]
+puts  "                  in: %5d  Workbooks" % [$twbCount]
+puts  "             # nodes: %5d  occurrences of %6d unique nodes" % [$nodesCnt, $nodes.length]
+puts  "             # edges: %5d       ''        %6d   ''   edges" % [$edgesCnt, $edges.length]
 
 $analyzer.docfilesdoc.each do |l| 
   puts '  ' + l
